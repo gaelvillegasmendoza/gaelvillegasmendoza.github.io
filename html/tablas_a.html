@@ -1,0 +1,334 @@
+<html>
+<head>
+    <title> Tablas en HTML</title>
+    <link rel="stylesheet" href="../css/colores_enlances.css" type="text/css">
+    </head>
+    <body>
+    <header>
+        <h1>Tablas en HTML</h1> 
+        </header>
+        <nav>
+            <ul>
+                 <li><a href="../index.html">Formatos</a></li> 
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlances.html">Enlances</a></li>
+                <li><a href="imagenes.html">imagenes</a></li> 
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="audio.html">Audio</a></li>   
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <h2>Tabla simple con separación de border de celda</h2>
+            <p>Praesent a porta velit, ut placerat ante. Maecenas metus diam, dictum nec sollicitudin sed, semper et nisi. Ut ligula nulla, mattis eget placerat quis, vulputate at enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent lobortis purus sed congue convallis. Vivamus non dui sit amet nisl hendrerit ornare. Suspendisse nec nisl sed neque elementum facilisis. Quisque magna lorem, suscipit imperdiet enim a, placerat dictum est. Donec at leo ac enim interdum dapibus. Duis iaculis, tortor consequat laoreet egestas, sem elit suscipit tellus, sit amet mollis erat felis non ex. Cras a laoreet est. Curabitur aliquet fermentum venenatis.</p>
+            <table border="1">
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Telefono</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                <td>Maria </td>   
+                <td>Gonzalez </td>  
+                <td>Perez</td>
+                <td>222-2223564 </td> 
+                <td>Maria@gmail.com </td>  
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Juarez</td>  
+                    <td>Mendoza</td>  
+                    <td>222-123456</td>  
+                    <td>Alejandro@outlook.com</td>    
+                </tr>
+                 <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>  
+                    <td>Rosales</td>  
+                    <td>222-456789</td>  
+                    <td>jose@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Ximena</td>
+                    <td>Paredes</td>  
+                    <td>Lozano</td>  
+                    <td>222-963852</td>  
+                    <td>ximena@hotmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Paulina</td>
+                    <td>Carcía</td>  
+                    <td>Flores</td>  
+                    <td>222-745385</td>  
+                    <td>paulina@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Pablo</td>
+                    <td>Flores</td>  
+                    <td>Castillo</td>  
+                    <td>222-541236</td>  
+                    <td>pablo@yahoo.com</td>    
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </section>
+        
+         <section>
+            <h2>Tabla modificada por clase y con uso de colspan </h2>
+            <p>Praesent a porta velit, ut placerat ante. Maecenas metus diam, dictum nec sollicitudin sed, semper et nisi. Ut ligula nulla, mattis eget placerat quis, vulputate at enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent lobortis purus sed congue convallis. Vivamus non dui sit amet nisl hendrerit ornare. Suspendisse nec nisl sed neque elementum facilisis. Quisque magna lorem, suscipit imperdiet enim a, placerat dictum est. Donec at leo ac enim interdum dapibus. Duis iaculis, tortor consequat laoreet egestas, sem elit suscipit tellus, sit amet mollis erat felis non ex. Cras a laoreet est. Curabitur aliquet fermentum venenatis.</p>
+               <table border="1" id="tabla2" class="tabla2"> 
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th colspan="2">Telefono</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                <td>Maria </td>   
+                <td>Gonzalez </td>  
+                <td>Perez</td>
+                <td>222-2223564 </td> 
+                <td>222-2221254 </td> 
+                <td>Maria@gmail.com </td>  
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Juarez</td>  
+                    <td>Mendoza</td>  
+                    <td>222-123456</td> 
+                    <td>222-2252254 </td> 
+                    <td>Alejandro@outlook.com</td>    
+                </tr>
+                 <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>  
+                    <td>Rosales</td>  
+                    <td>222-456789</td> 
+                    <td>222-228754 </td> 
+                    <td>jose@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Ximena</td>
+                    <td>Paredes</td>  
+                    <td>Lozano</td>  
+                    <td>222-963852</td> 
+                    <td></td>
+                    <td>ximena@hotmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Paulina</td>
+                    <td>Carcía</td>  
+                    <td>Flores</td>  
+                    <td>222-745385</td>  
+                    <td>222-2221254 </td> 
+                    <td>paulina@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Pablo</td>
+                    <td>Flores</td>  
+                    <td>Castillo</td>  
+                    <td>222-541236</td>  
+                    <td></td>
+                    <td>pablo@yahoo.com</td>    
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </section>
+         <section>
+            <h2>Tabla Zebra</h2>
+            <p>Praesent a porta velit, ut placerat ante. Maecenas metus diam, dictum nec sollicitudin sed, semper et nisi. Ut ligula nulla, mattis eget placerat quis, vulputate at enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent lobortis purus sed congue convallis. Vivamus non dui sit amet nisl hendrerit ornare. Suspendisse nec nisl sed neque elementum facilisis. Quisque magna lorem, suscipit imperdiet enim a, placerat dictum est. Donec at leo ac enim interdum dapibus. Duis iaculis, tortor consequat laoreet egestas, sem elit suscipit tellus, sit amet mollis erat felis non ex. Cras a laoreet est. Curabitur aliquet fermentum venenatis.</p>
+              <table border="1" id="tabla3">
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Telefono</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                <td>Maria </td>   
+                <td>Gonzalez </td>  
+                <td>Perez</td>
+                <td>222-2223564 </td> 
+                <td>Maria@gmail.com </td>  
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Juarez</td>  
+                    <td>Mendoza</td>  
+                    <td>222-123456</td>  
+                    <td>Alejandro@outlook.com</td>    
+                </tr>
+                 <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>  
+                    <td>Rosales</td>  
+                    <td>222-456789</td>  
+                    <td>jose@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Ximena</td>
+                    <td>Paredes</td>  
+                    <td>Lozano</td>  
+                    <td>222-963852</td>  
+                    <td>ximena@hotmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Paulina</td>
+                    <td>Carcía</td>  
+                    <td>Flores</td>  
+                    <td>222-745385</td>  
+                    <td>paulina@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Pablo</td>
+                    <td>Flores</td>  
+                    <td>Castillo</td>  
+                    <td>222-541236</td>  
+                    <td>pablo@yahoo.com</td>    
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </section>
+             <section>
+            <h2>Tabla Hover </h2>
+            <p>Praesent a porta velit, ut placerat ante. Maecenas metus diam, dictum nec sollicitudin sed, semper et nisi. Ut ligula nulla, mattis eget placerat quis, vulputate at enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent lobortis purus sed congue convallis. Vivamus non dui sit amet nisl hendrerit ornare. Suspendisse nec nisl sed neque elementum facilisis. Quisque magna lorem, suscipit imperdiet enim a, placerat dictum est. Donec at leo ac enim interdum dapibus. Duis iaculis, tortor consequat laoreet egestas, sem elit suscipit tellus, sit amet mollis erat felis non ex. Cras a laoreet est. Curabitur aliquet fermentum venenatis.</p>
+              <table border="1" id="tabla4">
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Telefono</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                <td>Maria </td>   
+                <td>Gonzalez </td>  
+                <td>Perez</td>
+                <td>222-2223564 </td> 
+                <td>Maria@gmail.com </td>  
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Juarez</td>  
+                    <td>Mendoza</td>  
+                    <td>222-123456</td>  
+                    <td>Alejandro@outlook.com</td>    
+                </tr>
+                 <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>  
+                    <td>Rosales</td>  
+                    <td>222-456789</td>  
+                    <td>jose@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Ximena</td>
+                    <td>Paredes</td>  
+                    <td>Lozano</td>  
+                    <td>222-963852</td>  
+                    <td>ximena@hotmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Paulina</td>
+                    <td>Carcía</td>  
+                    <td>Flores</td>  
+                    <td>222-745385</td>  
+                    <td>paulina@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Pablo</td>
+                    <td>Flores</td>  
+                    <td>Castillo</td>  
+                    <td>222-541236</td>  
+                    <td>pablo@yahoo.com</td>    
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </section>
+                 <section style="overflow-x: auto;">
+            <h2>Tabla con overflow </h2>
+            <p>Praesent a porta velit, ut placerat ante. Maecenas metus diam, dictum nec sollicitudin sed, semper et nisi. Ut ligula nulla, mattis eget placerat quis, vulputate at enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent lobortis purus sed congue convallis. Vivamus non dui sit amet nisl hendrerit ornare. Suspendisse nec nisl sed neque elementum facilisis. Quisque magna lorem, suscipit imperdiet enim a, placerat dictum est. Donec at leo ac enim interdum dapibus. Duis iaculis, tortor consequat laoreet egestas, sem elit suscipit tellus, sit amet mollis erat felis non ex. Cras a laoreet est. Curabitur aliquet fermentum venenatis.</p>
+              <table border="1" id="tabla5"class="tabla2">
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Telefono</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                <td>Maria </td>   
+                <td>Gonzalez </td>  
+                <td>Perez</td>
+                <td>222-2223564 </td> 
+                <td>Maria@gmail.com </td>  
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>Juarez</td>  
+                    <td>Mendoza</td>  
+                    <td>222-123456</td>  
+                    <td>Alejandro@outlook.com</td>    
+                </tr>
+                 <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>  
+                    <td>Rosales</td>  
+                    <td>222-456789</td>  
+                    <td>jose@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Ximena</td>
+                    <td>Paredes</td>  
+                    <td>Lozano</td>  
+                    <td>222-963852</td>  
+                    <td>ximena@hotmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Paulina</td>
+                    <td>Carcía</td>  
+                    <td>Flores</td>  
+                    <td>222-745385</td>  
+                    <td>paulina@gmail.com</td>    
+                </tr>
+                 <tr>
+                    <td>Pablo</td>
+                    <td>Flores</td>  
+                    <td>Castillo</td>  
+                    <td>222-541236</td>  
+                    <td>pablo@yahoo.com</td>    
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </section>
+            
+        </main>
+        
+    </body>
+    <footer>Elaborado por Arlette Vazquez</footer>
+</html>

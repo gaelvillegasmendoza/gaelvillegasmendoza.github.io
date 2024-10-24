@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+header, nav, main, footer {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    padding: 30px;  }
+
+header {
+    background-color: #f00065;
+    height: 50px;
+    text-align: center;
+}
+
+nav {
+    height: 40px;
+    background-color: #b3dbc8
+}
+
+main {
+    height: auto;
+    background-color: #f9fad2
+}
+
+footer {
+    height: 40px;
+    background-color: #262324
+}
+
+#rap.png {
+    width: 240px;
+    height: auto;
+    float: right;
+    padding-left: 20px;     
+}
